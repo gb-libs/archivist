@@ -3,15 +3,15 @@ import { Provider } from 'react-redux';
 import { Store } from 'redux';
 
 import App from './App';
-import AppState from '../redux/state/AppState';
+import {ConfigState} from '../redux/config/typings.d';
 
 interface Props {
-  store: Store<AppState>;
+  config: Store<ConfigState>;
 }
 
 const Root: React.FunctionComponent<Props> = props => {
   return (
-    <Provider store={props.store}>
+    <Provider store={props.config}>
       <App />
     </Provider>
   );
