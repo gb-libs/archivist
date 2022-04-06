@@ -9,7 +9,7 @@ export const initialConfigState: ConfigState = {
     }
 };
 
-const reducer: Reducer<ConfigState> = (
+const reducer: Reducer<ConfigState, ConfigActions> = (
     state: ConfigState = initialConfigState,
     action: ConfigActions
 ) => {
