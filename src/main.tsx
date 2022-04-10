@@ -1,0 +1,20 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+import {Provider} from 'react-redux'
+import {ConfigProvider} from 'antd'
+import en_US from 'antd/lib/locale/en_US';
+
+import AppRoute from './router'
+import store from './store'
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <ConfigProvider locale={en_US}>
+        <AppRoute/>
+      </ConfigProvider>
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById('root')
+)

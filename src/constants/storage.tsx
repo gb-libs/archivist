@@ -1,0 +1,4 @@
+export const LOCAL_STORAGE = {
+  USER: 'USER',
+  LOCK_SCREEN: 'LOCK_SCREEN'
+}
