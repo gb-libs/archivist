@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import './style.scss'
 import { getSystemInfo } from '../../store/systemSlice'
 import { useAppSelector, useAppDispatch } from '../../hooks'
 

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import {Provider} from 'react-redux'
 import {ConfigProvider} from 'antd'
 import en_US from 'antd/lib/locale/en_US';
+import reportWebVitals from './reportWebVitals';
 
 import AppRoute from './router'
 import store from './store'
@@ -17,4 +18,6 @@ ReactDOM.render(
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
-)
+);
+
+reportWebVitals();
