@@ -1,11 +1,11 @@
 import {configureStore} from "@reduxjs/toolkit"
-import userReducer from "./userSlice"
-import systemReducer from "./systemSlice"
+import ownUserReducer from "./ownUserSlice"
+import systemConfigReducer from "./systemConfigSlice"
 
 const store = configureStore({
   reducer: {
-    user: userReducer,
-    system: systemReducer,
+    ownUser: ownUserReducer,
+    systemConfig: systemConfigReducer,
   },
 })
 
