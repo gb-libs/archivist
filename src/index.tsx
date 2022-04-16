@@ -4,6 +4,9 @@ import {Provider} from "react-redux"
 import {ConfigProvider} from "antd"
 import en_US from "antd/lib/locale/en_US"
 
+import './assets/styles/global.scss'
+import 'antd/dist/antd.css'
+
 import reportWebVitals from "./utils/reportWebVitals"
 import AppRoute from "./router"
 import {store} from "./store"
