@@ -2,7 +2,7 @@ import React from "react"
 import qs from "query-string"
 import { useLocation, Navigate } from "react-router-dom"
 import { useAppSelector } from "../../hooks"
-import CONFIG from "../../config";
+import {CONFIG} from "../../config"
 
 type Props = {
   element: React.FC|React.ComponentClass

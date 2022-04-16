@@ -6,7 +6,7 @@ import en_US from "antd/lib/locale/en_US"
 
 import reportWebVitals from "./utils/reportWebVitals"
 import AppRoute from "./router"
-import store from "./store"
+import {store} from "./store"
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

@@ -1,5 +1,5 @@
-import http from "../utils/http"
+// import http from "../utils/http"
 
 export function serviceGetSystemInfo() {
-  return http.get("/system/info")
+  // return http.get("/system/info")
 }

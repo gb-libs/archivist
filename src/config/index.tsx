@@ -1,4 +1,4 @@
-const CONFIG = {
+export const CONFIG = {
   baseURL: '/',
   isDevelopment: process.env.REACT_APP_IS_DEVELOPMENT,
   title: 'Geoserver control panel for GeoBook',
@@ -7,5 +7,3 @@ const CONFIG = {
     requestTimeout: 60000
   }
 }
-
-export default CONFIG

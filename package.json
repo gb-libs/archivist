@@ -48,5 +48,8 @@
   "devDependencies": {
     "@redux-devtools/extension": "^3.2.2",
     "eslint-plugin-react-hooks": "^4.4.0"
-  }
+  },
+  "files": [
+    "src"
+  ]
 }
