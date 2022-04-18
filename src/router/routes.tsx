@@ -7,7 +7,7 @@ import HomeIndex from "../views/index"
 import Login from "../views/login/index"
 
 export function MainRoutes() {
-  const _Login = <PrivateRoute element={Login} meta={{title: 'Login'}} />
+  const _Login = <PrivateRoute element={Login} meta={{title: "Login"}} />
 
   return useRoutes([
     {

@@ -15,27 +15,9 @@
 .login-page {
   display: flex;
   min-height: 100vh;
-  background: #f0f2f5 url("https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg") no-repeat center 110px;
+  background-color: #ffffff;
   background-size: 100%;
   flex-direction: column;
-
-  .octo-arm {
-    animation: octocat 1.1s linear infinite;
-  }
-
-  .svg-wrapper {
-    z-index: 10001;
-    fill: #20a0ff;
-    color: #fff;
-    position: fixed;
-    top: -6px;
-    border: 0;
-    right: -6px;
-
-    .octo-arm {
-      transform-origin: 130px 106px;
-    }
-  }
 
   .wrap {
     flex: 1;
@@ -44,9 +26,9 @@
     align-self: center;
   }
 
-  .ant-input-affix-wrapper:not(:nth-child(1)) {
-    margin-top: 20px;
-  }
+  //.ant-input-affix-wrapper:not(:nth-child(1)) {
+  //  margin-top: 20px;
+  //}
 
   .anticon {
     color: #0000004d;
